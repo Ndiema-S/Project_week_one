@@ -172,3 +172,65 @@ span {
     font-size: 23px;
     cursor: pointer;
 }
+/* styling Product Section */
+.product-section {
+    margin: 90px auto 0;
+}
+.product-title {
+    color: #0f298b;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.product-section .products-options {
+    text-align: center;
+}
+.offers-options-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.offers-options-cards .card-option {
+    width: 30%;
+    max-width: 30%;
+    background-color: #fff;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    height: 300px;
+    padding: 30px;
+    margin: 15px;
+}
+.offers-options-cards .card-option:hover {
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+        rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    cursor: pointer;
+}
+.img-card-option {
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+}
+.img-card-option > img {
+    height: inherit;
+    margin: 0 auto;
+}
+
+.more-about-des > h3 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.more-about-des > p {
+    font-size: 18px;
+    font-weight: 450;
+    margin-top: 20px;
+    color: grey;
+}
+.product-sub-ttl {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
