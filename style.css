@@ -125,4 +125,40 @@ hr {
 #play-btn {
     border-radius: 50px;
     padding: none;
+
+}
+* Search Section */
+.search-section {
+    width: 90%;
+    margin: 100px auto 0;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+        rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+.search-section .inner-container {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    padding: 30px;
+}
+.options-cnt > option {
+    color: grey;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+#search-btn {
+    display: flex;
+    align-items: center;
+}
+#search-btn > span {
+    margin-right: 10px;
+    color: #fff;
+}
+.option-icon {
+    display: flex;
+    align-items: center;
 }
