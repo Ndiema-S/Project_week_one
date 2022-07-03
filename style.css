@@ -47,4 +47,27 @@ body {
 }
 .nav-links > ul > li > a:hover{
     color: #0f298b;
-    font-weight: 800;}
+    font-weight: 500;}
+    
+.logo > h1 {
+    font-family: "Oleo Script", cursive;
+}
+.btn {
+    padding: 15px;
+    border-radius: 7px;
+    border: none;
+    background-color: #2549d3;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600 !important;
+    cursor: pointer;
+}
+.btn:hover {
+    box-shadow: rgba(136, 165, 191, 0.42) 6px 15px 16px 0px,
+        rgba(255, 255, 255, 0.9) -6px -15px 3px 0px;
+}
+hr {
+    border: none;
+    background-color: grey;
+    padding: 0.2px;
+}
