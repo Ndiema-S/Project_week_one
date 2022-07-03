@@ -161,4 +161,14 @@ hr {
 .option-icon {
     display: flex;
     align-items: center;
+}.option-icon > label,
+span {
+    color: #0f298b;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+#search-btn.material-symbols-rounded {
+    font-size: 23px;
+    cursor: pointer;
 }
